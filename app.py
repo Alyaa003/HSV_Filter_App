@@ -9,7 +9,6 @@ UPLOAD_FOLDER = 'static/uploads/'
 RESULT_FOLDER = 'static/results/'
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 os.makedirs(RESULT_FOLDER, exist_ok=True)
-
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 app.config['RESULT_FOLDER'] = RESULT_FOLDER
 
